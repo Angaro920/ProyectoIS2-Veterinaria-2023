@@ -18,11 +18,7 @@ html {
     min-height: 100%;
 }
 
-.container {
-    position: relative;
-    left: 320px;
-    top: -500px;
-}
+
 .containerv {
     position: relative;
     left: 460px;
@@ -36,14 +32,12 @@ html {
 
 .bodyb {
     margin-bottom: 60px;
-    background-image: url(https://cdn.pixabay.com/photo/2018/10/01/09/21/pets-3715733_1280.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 .bodyv {
     margin-bottom: 60px;
-    background-image: url(https://cdn.pixabay.com/photo/2022/12/30/11/09/cat-7686662_1280.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
