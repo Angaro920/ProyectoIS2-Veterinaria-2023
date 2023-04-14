@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Veterinaria</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Veterinaria.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <section id="encabezado">
+            <h2 id="textoB">Bienvenidos a veterinaria</h2>
+        </section>
+
+        <section id="contenedor">
+            <nav>
+                <ul id="lugar">
+                    <li class="nav-item">
+                        <a class="boton" asp-area="" asp-controller="Home" asp-action="Index">Comida</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="boton" asp-area="" asp-controller="Home" asp-action="Privacy">Juguetes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="boton" asp-area="" asp-controller="Home" asp-action="Index">Medicamentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="boton" asp-area="" asp-controller="Home" asp-action="login">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <section id="contenido">
+        <div>
+            <main role="main">
+                @RenderBody()
+            </main>
+        </div>
+    </section>
+    <footer id="foot">
+        <div class="texto">
+            <p>Veterinaria <br />Tel:555 555 5555 <br />Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

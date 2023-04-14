@@ -1,0 +1,136 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.container {
+    position: relative;
+    left: 320px;
+    top: -500px;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url(https://cdn.pixabay.com/photo/2018/10/01/09/21/pets-3715733_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.boton {
+    background: linear-gradient(white, indianred);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+    font-style: italic;
+}
+
+    .boton:hover {
+        width: 150px;
+        background: indianred;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-style: italic;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#lugar {
+}
+
+#contenedor {
+    position: relative;
+    width: 150px;
+    height: 510px;
+    background: linear-gradient(to left, white, indianred);
+}
+
+#foot {
+    position: absolute;
+    bottom:0;
+    background: black;
+    width:100%;
+}
+
+.texto {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color: white;
+    height: 150px;
+    font-style: italic;
+    background-position: center center;
+    background-size: cover;
+}
+
+#encabezado {
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/07/18/57/dog-2606759_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 120px;
+}
+
+#textoB {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color: white;
+    height: 100px;
+    font-size: x-large;
+    font-style: italic;
+    background-position: center center;
+}
+#Principal {
+    color: white;
+    font-style: italic;
+    font-size: x-large;
+    font-style: italic;
+}
+#Login {
+    position: relative;
+    left: 200px;
+    top: -450px;
+    color: white;
+    font-style: italic;
+    height: 80px;
+    font-weight: 900;
+}
+#btn {
+    background: linear-gradient(white, darkgray);
+    text-align: center;
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+#btn:hover{
+    background:red;
+    color:white
+}
