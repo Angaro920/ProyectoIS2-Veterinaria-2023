@@ -8,24 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\acruz\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\nelso\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\acruz\\Source\\Repos\\ProyectoIS2-Veterinaria-2023\\Veterinaria_Proyecto\\Veterinaria_Proyecto.csproj",
+      "projectUniqueName": "C:\\basura\\Veterinaria_Proyecto\\Veterinaria_Proyecto.csproj",
       "projectName": "Veterinaria_Proyecto",
-      "projectPath": "C:\\Users\\acruz\\Source\\Repos\\ProyectoIS2-Veterinaria-2023\\Veterinaria_Proyecto\\Veterinaria_Proyecto.csproj",
-      "packagesPath": "C:\\Users\\acruz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\acruz\\Source\\Repos\\ProyectoIS2-Veterinaria-2023\\Veterinaria_Proyecto\\obj\\",
+      "projectPath": "C:\\basura\\Veterinaria_Proyecto\\Veterinaria_Proyecto.csproj",
+      "packagesPath": "C:\\Users\\nelso\\.nuget\\packages\\",
+      "outputPath": "C:\\basura\\Veterinaria_Proyecto\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\acruz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\nelso\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

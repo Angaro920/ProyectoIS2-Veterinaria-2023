@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Veterinaria</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Veterinaria.styles.css" asp-append-version="true" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
@@ -17,11 +17,11 @@
 <body>
     <header>
         <section id="encabezado">
-            <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #0DB6CA;">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark " style="background-color: #0DB6CA;">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#" id="navbarTitle">
+                <a class="navbar-brand" class="nav-link" asp-area="" asp-controller="Home" asp-action="Index" id="navbarTitle">
                     <span class="material-symbols-outlined">
                         pets
                     </span> 
@@ -42,16 +42,13 @@
                         <li class="nav-item active">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Medicamentos</a>
                         </li>
-
- 
                     </ul>
 
                     <ul>
-                        <li class="navbar-nav mx-auto mt-2 mt-lg-0 my-2 my-lg-0">
+                        <li class="navbar-nav mx-auto mt-2 mt-lg-0 my-2  ">
                             <a class="nav-link active" asp-area="" asp-controller="home" asp-action="login">Iniciar sesion</a>
                         </li>
-            
-                        
+
                     </ul>
                     
                 </div>
@@ -62,13 +59,12 @@
         <div>
             <main role="main">
                 @RenderBody()
+
             </main>
         </div>
     </section>
     <footer id="foot">
-        <div class="texto">
-            <p>Veterinaria <br />Tel:555 555 5555 <br />Todos los derechos reservados</p>
-        </div>
+        
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
