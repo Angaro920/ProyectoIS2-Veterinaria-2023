@@ -88,7 +88,7 @@ ul {
 }
 
 #encabezado {
-    background-image: url(https://cdn.pixabay.com/photo/2017/08/07/18/57/dog-2606759_1280.jpg);
+    
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -133,4 +133,14 @@ ul {
 #btn:hover{
     background:red;
     color:white
+}
+
+#navbarTogglerDemo03 {
+    font-family: 'Bree Serif', serif;
+    font-size: 20pt;
+}
+
+#navbarTitle {
+    font-family: 'DynaPuff', cursive;
+    font-size: 25pt;
 }
