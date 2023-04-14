@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Gestionar productos";
+}
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<header>
+    <section id="contenedorv">
+        <nav>
+            <ul id="lugar">
+                <li class="nav-item">
+                    <a class="botonv" asp-area="" asp-controller="Home" asp-action="RegistroMascota">Registrar mascota</a>
+                </li>
+                <li class="nav-item">
+                    <a class="botonv" asp-area="" asp-controller="Home" asp-action="GestorProd">Gestionar productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="botonv" asp-area="" asp-controller="Home" asp-action="Index">Buscar mascota</a>
+                </li>
+                <li class="nav-item">
+                    <a class="botonv" asp-area="" asp-controller="Home" asp-action="login">Historial clinico</a>
+                </li>
+                <li class="nav-item">
+                    <a class="botonv" asp-area="" asp-controller="Home" asp-action="finalizarSec">Salir</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+</header>
+<body class="bodyv">
+    <section class="containerP">
+
+        <div id="Principal">
+            <h2>Gestionar productos</h2>
+            <div class="btnpr">
+                <a class="botonp" asp-area="" asp-controller="Home" asp-action="">Guardar</a>
+            </div>
+            <br />
+            <br />
+            <div class="btnpr">
+                <a class="botonp" asp-area="" asp-controller="Home" asp-action="">Nuevo producto</a>
+            </div>
+            <div id="img1">
+                <img id ="im1" src="https://mascotamarket.com/wp-content/uploads/2019/03/Equilibrio_Gatos_Adulto-1.jpg" />
+            </div>
+                <div id="cant1">
+                <label>&nbsp;&nbsp;&nbsp;Precio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <input type="text" /></label><br />
+                <label>&nbsp;&nbsp;&nbsp;Existencias &nbsp;&nbsp; <input type="text" /></label><br />              
+                <a class="botonp" asp-area="" asp-controller="Home" asp-action="">Enviar</a>
+                <a class="botonp">+ </a>
+                <a class="botonp">- </a>
+                </div>
+            
+            <div id="img2">
+                <img id="im2" src="https://www.agrocampo.com.co/media/catalog/product/cache/d51e0dc10c379a6229d70d752fc46d83/1/1/111111429_ed-min.jpg" />
+            </div>
+            <div id="cant2">
+                <label>&nbsp;&nbsp;&nbsp;Precio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <input type="text" /></label><br />
+                <label>&nbsp;&nbsp;&nbsp;Existencias &nbsp;&nbsp; <input type="text" /></label><br />
+                <a class="botonp" asp-area="" asp-controller="Home" asp-action="">Enviar</a>
+                <a class="botonp">+ </a>
+                <a class="botonp">- </a>
+            </div>
+
+        </div>
+    </section>
+</body>
