@@ -126,3 +126,4 @@ C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\ob
 C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Veterinaria_Proyecto.genruntimeconfig.cache
 C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Veterinaria_Proyecto.csproj.CopyComplete
 C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\IndexV.cshtml.g.cs
+C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\finalizarSec.cshtml.g.cs
