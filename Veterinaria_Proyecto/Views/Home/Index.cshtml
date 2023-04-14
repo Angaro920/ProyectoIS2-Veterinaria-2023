@@ -1,8 +1,36 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Veterinaria";
 }
+<header>
+    <section id="encabezado">
+        <h2 id="textoB">Bienvenidos a veterinaria</h2>
+    </section>
+
+    <section id="contenedor">
+        <nav>
+            <ul id="lugar">
+                <li class="nav-item">
+                    <a class="boton" asp-area="" asp-controller="Home" asp-action="IndexV">Comida</a>
+                </li>
+                <li class="nav-item">
+                    <a class="boton" asp-area="" asp-controller="Home" asp-action="Juguetes">Juguetes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="boton" asp-area="" asp-controller="Home" asp-action="Medicamentos">Medicamentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="boton" asp-area="" asp-controller="Home" asp-action="login">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+</header>
+<body class="bodyb">
 <section class ="container">
+
 <div id="Principal">
    <h2>Lo mejor para el cuidado de tus mascotas</h2>
 </div>
 </section>
+</body>
