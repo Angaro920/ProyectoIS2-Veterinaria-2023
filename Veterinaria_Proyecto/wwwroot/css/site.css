@@ -7,6 +7,11 @@
         font-size: 16px;
     }
 }
+#Registro{
+    position:relative;
+    top:-80px;
+    color:white;
+}
 
 html {
     position: relative;
@@ -183,6 +188,21 @@ ul {
     background:red;
     color:white
 }
+#btnr {
+    background: linear-gradient(black, red);
+    text-align: center;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+    #btnr:hover {
+        background: red;
+        color: white
+    }
 
 #navbarTogglerDemo03 {
     font-family: 'Bree Serif', serif;
