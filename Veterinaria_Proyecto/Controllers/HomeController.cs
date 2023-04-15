@@ -23,23 +23,19 @@ namespace Veterinaria_Proyecto.Controllers
             return View();
         }
 
-        public IActionResult login()
+        public IActionResult LogIn()
         {
             return View();
         }
-        public IActionResult IndexV()
+        public IActionResult LogOut()
         {
             return View();
         }
-        public IActionResult finalizarSec()
+        public IActionResult AgregarMascota()
         {
             return View();
         }
-        public IActionResult RegistroMascota()
-        {
-            return View();
-        }
-        public IActionResult GestorProd()
+        public IActionResult ActualizarProducto()
         {
             return View();
         }
@@ -47,6 +43,10 @@ namespace Veterinaria_Proyecto.Controllers
         {
             return View();
         }
+        public IActionResult CrearProducto() {
+            return View();
+        }
+       
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
