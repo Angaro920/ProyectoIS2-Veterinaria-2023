@@ -39,11 +39,10 @@ namespace Veterinaria_Proyecto.Controllers
         {
             return View();
         }
-        public IActionResult dashboard()
-        {
+        public IActionResult CrearProducto() {
             return View();
         }
-        public IActionResult CrearProducto() {
+        public IActionResult catFood() {
             return View();
         }
        

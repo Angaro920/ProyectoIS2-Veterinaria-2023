@@ -178,3 +178,4 @@ C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\o
 C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\CrearProducto.cshtml.g.cs
 C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\ActualizarProducto.cshtml.g.cs
 C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\AgregarMascota.cshtml.g.cs
+C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\catFood.cshtml.g.cs

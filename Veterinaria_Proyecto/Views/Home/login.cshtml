@@ -1,45 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Iniciar sesion";
 }
-@*<header>
-    <section id="encabezado">
-        <h2 id="textoB">Bienvenidos a veterinaria</h2>
-    </section>
-
-    <section id="contenedor">
-        <nav>
-            <ul id="lugar">
-                <li class="nav-item">
-                    <a class="boton" asp-area="" asp-controller="Home" asp-action="Index_V_AV">Comida</a>
-                </li>
-                <li class="nav-item">
-                    <a class="boton" asp-area="" asp-controller="Home" asp-action="Privacy">Juguetes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="boton" asp-area="" asp-controller="Home" asp-action="Index">Medicamentos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="boton" asp-area="" asp-controller="Home" asp-action="login">Login</a>
-                </li>
-            </ul>
-        </nav>
-    </section>
-</header>
-<body class="bodyb">
-<section id="Login">
-
-    <h5>login</h5>
-    <form>
-        <label>&nbsp;&nbsp;&nbsp;Usuario &nbsp;&nbsp; <input type="text" /></label><br />
-        <label>Contraseña &nbsp;<input type="password"/></label><br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <botton id="btn">Ingresar</botton>
-    </form>
-    
-</section>
-</body>*@
+@**@
 
  
 
@@ -85,9 +47,9 @@
                     <input type="checkbox" value="remember-me" /> Remember me
                 </label>
             </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">
+        <a class="w-100 btn btn-lg btn-primary" asp-area="" asp-controller="Dashboard" asp-action="Index">
                 Sign in
-            </button>
+            </a>
         </form>
 
     </section>
