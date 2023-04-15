@@ -175,3 +175,4 @@ C:\Users\Angaro\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\o
 C:\Users\Angaro\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Veterinaria_Proyecto.pdb
 C:\Users\Angaro\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Veterinaria_Proyecto.genruntimeconfig.cache
 C:\Users\Angaro\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Veterinaria_Proyecto.csproj.CopyComplete
+C:\Users\Angaro\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\dashboard.cshtml.g.cs
