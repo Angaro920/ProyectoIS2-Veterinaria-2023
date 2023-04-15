@@ -125,10 +125,6 @@ C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\ob
 C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Veterinaria_Proyecto.pdb
 C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Veterinaria_Proyecto.genruntimeconfig.cache
 C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Veterinaria_Proyecto.csproj.CopyComplete
-C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\IndexV.cshtml.g.cs
-C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\finalizarSec.cshtml.g.cs
-C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\RegistroMascota.cshtml.g.cs
-C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\GestorProd.cshtml.g.cs
 C:\Users\Angaro\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Angaro\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Angaro\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\bin\Debug\netcoreapp3.1\Veterinaria_Proyecto.exe
@@ -179,3 +175,11 @@ C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\o
 C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\ActualizarProducto.cshtml.g.cs
 C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\AgregarMascota.cshtml.g.cs
 C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\catFood.cshtml.g.cs
+C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Pets.cshtml.g.cs
+C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Products.cshtml.g.cs
+C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\ActualizarProducto.cshtml.g.cs
+C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\AgregarMascota.cshtml.g.cs
+C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\catFood.cshtml.g.cs
+C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\CrearProducto.cshtml.g.cs
+C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\LogOut.cshtml.g.cs
