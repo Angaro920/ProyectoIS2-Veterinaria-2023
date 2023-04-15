@@ -123,6 +123,33 @@ html {
         font-size: 16px;
         font-style: italic;
     }
+.botonc {
+    background: linear-gradient(black, red);
+    border: none;
+    color: white;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 160px;
+    font-style: italic;
+    position:relative;
+    left:1000px;
+}
+
+    .botonc:hover {
+        width: 160px;
+        background: red;
+        border: none;
+        color: white;
+        padding: 2px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-style: italic;
+    }
 ul {
     list-style-type: none;
     margin: 0;
@@ -290,4 +317,7 @@ ul {
     left: 500px;
     height: 1px;
     width: 600px;
+}
+#Registrop{
+    color:black;
 }

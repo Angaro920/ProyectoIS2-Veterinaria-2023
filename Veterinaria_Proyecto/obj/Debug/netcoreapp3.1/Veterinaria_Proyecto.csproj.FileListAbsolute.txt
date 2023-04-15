@@ -129,3 +129,4 @@ C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\ob
 C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\finalizarSec.cshtml.g.cs
 C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\RegistroMascota.cshtml.g.cs
 C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\GestorProd.cshtml.g.cs
+C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\RegistroProd.cshtml.g.cs
