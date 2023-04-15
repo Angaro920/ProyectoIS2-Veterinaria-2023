@@ -173,3 +173,5 @@ C:\basura\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Veterinaria_Proyecto.dll
 C:\basura\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Veterinaria_Proyecto.pdb
 C:\basura\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Veterinaria_Proyecto.genruntimeconfig.cache
 C:\basura\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Veterinaria_Proyecto.csproj.CopyComplete
+C:\basura\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\GestorProd.cshtml.g.cs
+C:\basura\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\RegistroProd.cshtml.g.cs
