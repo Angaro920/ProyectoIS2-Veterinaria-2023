@@ -8,19 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\nelso\\.nuget\\packages\\": {}
+    "C:\\Users\\Angaro\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\basura\\Veterinaria_Proyecto\\Veterinaria_Proyecto.csproj",
+      "projectUniqueName": "C:\\Users\\Angaro\\Source\\Repos\\ProyectoIS2-Veterinaria-2023\\Veterinaria_Proyecto\\Veterinaria_Proyecto.csproj",
       "projectName": "Veterinaria_Proyecto",
-      "projectPath": "C:\\basura\\Veterinaria_Proyecto\\Veterinaria_Proyecto.csproj",
-      "packagesPath": "C:\\Users\\nelso\\.nuget\\packages\\",
-      "outputPath": "C:\\basura\\Veterinaria_Proyecto\\obj\\",
+      "projectPath": "C:\\Users\\Angaro\\Source\\Repos\\ProyectoIS2-Veterinaria-2023\\Veterinaria_Proyecto\\Veterinaria_Proyecto.csproj",
+      "packagesPath": "C:\\Users\\Angaro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Angaro\\Source\\Repos\\ProyectoIS2-Veterinaria-2023\\Veterinaria_Proyecto\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\nelso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Angaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
