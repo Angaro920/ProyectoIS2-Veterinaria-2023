@@ -23,6 +23,11 @@ namespace Veterinaria_Proyecto.Controllers
             return View();
         }
 
+        public IActionResult catFood()
+        {
+            return View();
+        }
+
         public IActionResult login()
         {
             return View();
