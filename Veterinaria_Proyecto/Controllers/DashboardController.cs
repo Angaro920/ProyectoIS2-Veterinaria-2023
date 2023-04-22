@@ -16,5 +16,21 @@ namespace Veterinaria_Proyecto.Controllers
         public ActionResult Products() {
             return View();
         }
+        public ActionResult CreateProducts()
+        {
+            return View();
+        }
+        public ActionResult ReadProducts()
+        {
+            return View();
+        }
+        public ActionResult DeleteProducts()
+        {
+            return View();
+        }
+        public ActionResult UpdateProducts()
+        {
+            return View();
+        }
     }
 }
