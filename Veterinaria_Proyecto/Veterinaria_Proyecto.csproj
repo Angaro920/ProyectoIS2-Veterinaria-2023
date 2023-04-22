@@ -5,14 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\js\chekout.js" />
     <Content Remove="wwwroot\js\color-modes.js" />
   </ItemGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\chekout.js" />
     <_ContentIncludedByDefault Remove="wwwroot\js\color-modes.js" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\js\chekout.js" />
     <None Include="wwwroot\js\color-modes.js" />
   </ItemGroup>
 
