@@ -13,7 +13,8 @@ namespace Veterinaria_Proyecto.Controllers
         {
             return View();
         }
-        public ActionResult Products() {
+        public ActionResult Products()
+        {
             return View();
         }
         public ActionResult ClinicHistory()
@@ -21,22 +22,6 @@ namespace Veterinaria_Proyecto.Controllers
             return View();
         }
         public ActionResult Clients()
-        {
-            return View();
-        }
-        public ActionResult CreateProducts()
-        {
-            return View();
-        }
-        public ActionResult ReadProducts()
-        {
-            return View();
-        }
-        public ActionResult DeleteProducts()
-        {
-            return View();
-        }
-        public ActionResult UpdateProducts()
         {
             return View();
         }
