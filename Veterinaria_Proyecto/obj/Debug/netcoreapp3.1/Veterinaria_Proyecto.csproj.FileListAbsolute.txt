@@ -180,13 +180,5 @@ C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\ob
 C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\catFood.cshtml.g.cs
 C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\CrearProducto.cshtml.g.cs
 C:\Users\acruz\Source\Repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Home\LogOut.cshtml.g.cs
-C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\CreateProducts.cshtml.g.cs
-C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\DeleteProducts.cshtml.g.cs
-C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\ReadProducts.cshtml.g.cs
-C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\UpdateProducts.cshtml.g.cs
-C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\CreatePet.cshtml.g.cs
-C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\ReadPet.cshtml.g.cs
-C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\DeletePet.cshtml.g.cs
-C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\UpdatePet.cshtml.g.cs
 C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\ClinicHistory.cshtml.g.cs
 C:\Users\Angaro\source\repos\ProyectoIS2-Veterinaria-2023\Veterinaria_Proyecto\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Clients.cshtml.g.cs
