@@ -9,7 +9,9 @@
     <title>Dashboard</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link href="~/css/dashboard.css" rel="stylesheet"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/css/table.css" rel="stylesheet" />
+    <link href="~/css/dashboard.css" rel="stylesheet" />
     <link href="sidebars.css" rel="stylesheet">
     <meta name="theme-color" content="#712cf9">
 </head>
@@ -28,25 +30,25 @@
         <symbol id="sun-fill" viewBox="0 0 16 16">
             <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
         </symbol>
-        <symbol id="bootstrap" viewBox="0 0 118 94">
-            <title>Bootstrap</title>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
-        </symbol>
         <symbol id="home" viewBox="0 0 16 16">
             <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z" />
         </symbol>
-        <symbol id="speedometer2" viewBox="0 0 16 16">
-            <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z" />
-            <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z" />
+        <symbol id="pet" viewBox="0 0 16 16">
+            <path d="M6.048 3.323c.022.277-.13.523-.338.55-.21.026-.397-.176-.419-.453-.022-.277.13-.523.338-.55.21-.026.397.176.42.453Zm2.265-.24c-.603-.146-.894.256-.936.333-.027.048-.008.117.037.15.045.035.092.025.119-.003.361-.39.751-.172.829-.129l.011.007c.053.024.147.028.193-.098.023-.063.017-.11-.006-.142-.016-.023-.089-.08-.247-.118Z" />
+            <path d="M11.727 6.719c0-.022.01-.375.01-.557 0-3.07-1.45-6.156-5.015-6.156-3.564 0-5.014 3.086-5.014 6.156 0 .182.01.535.01.557l-.72 1.795a25.85 25.85 0 0 0-.534 1.508c-.68 2.187-.46 3.093-.292 3.113.36.044 1.401-1.647 1.401-1.647 0 .979.504 2.256 1.594 3.179-.408.126-.907.319-1.228.556-.29.213-.253.43-.201.518.228.386 3.92.246 4.985.126 1.065.12 4.756.26 4.984-.126.052-.088.088-.305-.2-.518-.322-.237-.822-.43-1.23-.557 1.09-.922 1.594-2.2 1.594-3.178 0 0 1.041 1.69 1.401 1.647.168-.02.388-.926-.292-3.113a25.78 25.78 0 0 0-.534-1.508l-.72-1.795ZM9.773 5.53a.095.095 0 0 1-.009.096c-.109.159-1.554.943-3.033.943h-.017c-1.48 0-2.925-.784-3.034-.943a.098.098 0 0 1-.018-.055c0-.015.004-.028.01-.04.13-.287 1.43-.606 3.042-.606h.017c1.611 0 2.912.319 3.042.605Zm-4.32-.989c-.483.022-.896-.529-.922-1.229-.026-.7.344-1.286.828-1.308.483-.022.896.529.922 1.23.027.7-.344 1.286-.827 1.307Zm2.538 0c-.484-.022-.854-.607-.828-1.308.027-.7.44-1.25.923-1.23.483.023.853.608.827 1.309-.026.7-.439 1.251-.922 1.23ZM2.928 8.99c.213.042.426.081.639.117v2.336s1.104.222 2.21.068V9.363c.326.018.64.026.937.023h.017c1.117.013 2.474-.136 3.786-.396.097.622.151 1.386.097 2.284-.146 2.45-1.6 3.99-3.846 4.012h-.091c-2.245-.023-3.7-1.562-3.846-4.011-.054-.9 0-1.663.097-2.285Z" />
         </symbol>
-        <symbol id="table" viewBox="0 0 16 16">
-            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z" />
+        <symbol id="people-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
         </symbol>
-        <symbol id="grid" viewBox="0 0 16 16">
-            <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
+        <symbol id="healing" viewBox="0 0 16 16">
+            <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z" />
+            <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm4.5 6V9H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V10H6a.5.5 0 0 1 0-1h1.5V7.5a.5.5 0 0 1 1 0Z" />
+        </symbol>
+        <symbol id="store" viewBox="0 0 16 16">
+            <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z" />
         </symbol>
     </svg>
-
     <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
         <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
                 id="bd-theme"
@@ -81,10 +83,7 @@
             </li>
         </ul>
     </div>
-
     <main class="d-flex flex-nowrap">
-        <h1 class="visually-hidden">Sidebars examples</h1>
-
         <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                 <span class="fs-4">Veterinaria</span>
@@ -99,20 +98,28 @@
                 </li>
                 <li>
                     <a class="nav-link active" asp-area="" asp-controller="Dashboard" asp-action="Pets">
-                        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2" /></svg>
+                        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#pet" /></svg>
                         Mascotas
                     </a>
                 </li>
                 <li>
-                    <a class="nav-link text-white" asp-area="" asp-controller="Dashboard" asp-action="Products">
-                        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table" /></svg>
-                        Productos
+                    <a class="nav-link text-white" asp-area="" asp-controller="Dashboard" asp-action="Clients">
+                        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle" /></svg>
+                        Clientes
                     </a>
                 </li>
+
+                <li>
+                    <a class="nav-link text-white" asp-area="" asp-controller="Dashboard" asp-action="ClinicHistory">
+                        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#healing" /></svg>
+                        Historia Clinica
+                    </a>
+                </li>
+
                 <li>
                     <a class="nav-link text-white" asp-area="" asp-controller="Dashboard" asp-action="Products">
-                        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid" /></svg>
-                        Historia Clinica
+                        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#store" /></svg>
+                        Productos
                     </a>
                 </li>
             </ul>
@@ -131,54 +138,424 @@
             </div>
         </div>
 
-     <div class="b-example-divider b-example-vr"></div>
-        <div class="py-5">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col ms-5 me-5">
-                        <div class="card shadow-sm">
-                            <div class="card-body">
-                                    <h2>Registrar Mascota</h2>
-                                    <p class="card-text">Registra una nueva mascota en el sistema</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                    <button class="btn btn-outline-secondary" type="button">Ingresar</button>
-                                </div>
+
+        <div class="b-example-divider b-example-vr"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="mt-4 ms-3">
+                        <a class="btn btn-outline-secondary" asp-area="" asp-controller="Dashboard" asp-action="Index">Regresar</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mt-4 ms-3">
+                        <a class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#modalAgregar">Agregar Mascota</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-floating mt-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Buscar">
+                        <label for="floatingInput">Buscar</label>
+                    </div>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-outline-secondary mt-4 ">Buscar</button>
+                </div>
+            </div>
+        </div>
+        <hr mt-5>
+        <div class="container bootstrap snippets bootdey">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main-box no-header clearfix">
+                        <div class="main-box-body clearfix">
+                            <div class="table-responsive">
+                                <table class="table user-list">
+                                    <thead>
+                                        <tr>
+                                            <th><span>Nombre</span></th>
+                                            <th class=""><span>Dueño</span></th>
+                                            <th><span>Raza</span></th>
+                                            <th><span>Estado</span></th>
+                                            <th>&nbsp;</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="https://img.icons8.com/color/48/null/dog.png" alt="">
+                                                <h5 class="modal-title">Mascota 1</h5>
+                                                <span class="user-subhead">Tipo Mascota</span>
+                                            </td>
+                                            <td>
+                                                <span>Dueño 1</span>
+                                            </td>
+                                            <td>Raza 1</td>
+                                            <td>
+                                                <span class="badge bg-success">Activo</span>
+                                            </td>
+                                            <td style="width: 20%;">
+                                                <a href="" data-bs-toggle="modal" data-bs-target="#modalMostrar"
+                                                   class="table-link  text-warning">
+
+                                                    <span class="fa-stack" data-bs-toggle="tooltip" title="Mostrar">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#modalModificar"
+                                                   class="table-link  text-info">
+                                                    <span class="fa-stack" data-bs-toggle="tooltip" title="Editar">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#modalEliminar"
+                                                   class="table-link danger">
+                                                    <span class="fa-stack" data-bs-toggle="tooltip" title="Eliminar">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="https://img.icons8.com/color/48/null/dog.png" alt="">
+                                                <h5 class="modal-title">Mascota 2</h5>
+                                                <span class="user-subhead">Tipo Mascota</span>
+                                            </td>
+                                            <td>
+                                                <span>Dueño 2</span>
+                                            </td>
+                                            <td>Raza 2</td>
+                                            <td>
+                                                <span class="badge bg-danger">Inactivo</span>
+                                            </td>
+                                            <td>
+                                                <a href="" data-bs-toggle="modal" data-bs-target="#modalMostrar"
+                                                   class="table-link  text-warning">
+
+                                                    <span class="fa-stack" data-bs-toggle="tooltip" title="Mostrar">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#modalModificar"
+                                                   class="table-link  text-info">
+                                                    <span class="fa-stack" data-bs-toggle="tooltip" title="Editar">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#modalEliminar"
+                                                   class="table-link danger">
+                                                    <span class="fa-stack" data-bs-toggle="tooltip" title="Eliminar">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="https://img.icons8.com/color/48/null/dog.png" alt="">
+                                                <h5 class="modal-title">Mascota 3</h5>
+                                                <span class="user-subhead">Tipo Mascota</span>
+                                            </td>
+                                            <td>
+                                                <span>Dueño 3</span>
+                                            </td>
+                                            <td>Raza 3</td>
+                                            <td>
+                                                <span class="badge bg-warning">Hospitalizado</span>
+                                            </td>
+                                            <td style="width: 20%;">
+                                                <a href="" data-bs-toggle="modal" data-bs-target="#modalMostrar"
+                                                   class="table-link  text-warning">
+
+                                                    <span class="fa-stack" data-bs-toggle="tooltip" title="Mostrar">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#modalModificar"
+                                                   class="table-link  text-info">
+                                                    <span class="fa-stack" data-bs-toggle="tooltip" title="Editar">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#modalEliminar"
+                                                   class="table-link danger">
+                                                    <span class="fa-stack" data-bs-toggle="tooltip" title="Eliminar">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
-                    <div class="col  ms-5 me-5">
-                        <div class="card shadow-sm">
-                            <div class="card-body">
-                                <h2>Mostrar Mascotas</h2>
-                                <p class="card-text">Muestra todas las mascotas registradas en el sistema</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <button class="btn btn-outline-secondary" type="button">Ingresar</button>
+                </div>
+            </div>
+        </div>
+        <!--MODAL DE AGREGAR-->
+        <div class="modal" id="modalAgregar">
+            <div class="modal-dialog modal-fullscreen-xl-down">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Agregar Producto</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <form class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombreMarca" placeholder="" value=""
+                                           required>
+                                    <div class="invalid-feedback">
+                                        Se requiere un nombre valido.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="marca" class="form-label">Marca</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="" value=""
+                                           required>
+                                    <div class="invalid-feedback">
+                                        Se requiere una marca valida.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="descripcion" class="form-label">Descripcion</label>
+                                    <div class="input-group has-validation">
+                                        <textarea type="text" class="form-control" id="descripcion" placeholder="" value="" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Se requiere una descripcion valida.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="precio" class="form-label">Precio</label>
+                                    <input type="number" class="form-control" id="precio" placeholder="" value="" required>
+                                    <div class="invalid-feedback">
+                                        Se requiere un precio valido.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="existencias" class="form-label">Existencias</label>
+                                    <input type="number" class="form-control" id="lastName" placeholder="" value="" required>
+                                    <div class="invalid-feedback">
+                                        Se requiere existencias validas.
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="formFileSm" class="form-label">Imagen</label>
+                                        <input class="form-control" type="file" id="formFile" required>
+                                        <div class="invalid-feedback">
+                                            Se requiere una imagen
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
-                        </div>
+
+                            <!-- Modal footer -->
+
+                            <div class="modal-footer mt-2">
+                                <button class="btn btn-success" type="submit">Agregar</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            </div>
+                        </form>
                     </div>
-                    <div class="col ms-5 me-5">
-                        <div class="card shadow-sm">
-                            <div class="card-body">
-                                <h2>Eliminar Mascotas</h2>
-                                <p class="card-text">Elimina los datos de una mascota</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <button class="btn btn-outline-secondary" type="button">Ingresar</button>
+                </div>
+            </div>
+        </div>
+        <!--MODAL DE Eliminar-->
+        <div class="modal" id="modalEliminar">
+            <div class="modal-dialog modal-fullscreen-xl-down">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Eliminar Registro</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Desea eliminar el registro?
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--MODAL DE MODIFICAR-->
+        <div class="modal" id="modalModificar">
+            <div class="modal-dialog modal-fullscreen-xl-down">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modificar Registro</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <form class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombreMarca" placeholder="" value=""
+                                           required>
+                                    <div class="invalid-feedback">
+                                        Se requiere un nombre valido.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="marca" class="form-label">Marca</label>
+                                    <input type="text" class="form-control" id="marca" placeholder="" value=""
+                                           required>
+                                    <div class="invalid-feedback">
+                                        Se requiere una marca valida.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="descripcion" class="form-label">Descripcion</label>
+                                    <div class="input-group has-validation">
+                                        <textarea type="text" class="form-control" id="descripcion" placeholder="" value="" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Se requiere una descripcion valida.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="precio" class="form-label">Precio</label>
+                                    <input type="number" class="form-control" id="precio" placeholder="" value="" required>
+                                    <div class="invalid-feedback">
+                                        Se requiere un precio valido.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="existencias" class="form-label">Existencias</label>
+                                    <input type="number" class="form-control" id="lastName" placeholder="" value="" required>
+                                    <div class="invalid-feedback">
+                                        Se requiere existencias validas.
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="formFileSm" class="form-label">Imagen</label>
+                                        <input class="form-control" type="file" id="formFile" required>
+                                        <div class="invalid-feedback">
+                                            Se requiere una imagen
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
-                        </div>
+
+                            <!-- Modal footer -->
+
+                            <div class="modal-footer mt-2">
+                                <button class="btn btn-warning" type="submit">Modificar</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            </div>
+                        </form>
                     </div>
-                    <div class="col ms-5 me-5">
-                        <div class="card shadow-sm">
-                            <div class="card-body">
-                                <h2>Actualizar Mascotas</h2>
-                                <p class="card-text">Actualiza los datos de una mascota</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <button class="btn btn-outline-secondary" type="button">Ingresar</button>
+
+                    <!-- Modal footer -->
+
+                </div>
+            </div>
+        </div>
+        <!--MODAL DE MOSTRAR-->
+        <div class="modal" id="modalMostrar">
+            <div class="modal-dialog modal-fullscreen-xl-down">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Mostrar Registro</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <form class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombreMarca" placeholder="" value=""
+                                           disabled>
+                                    <div class="invalid-feedback">
+                                        Se requiere un nombre valido.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="lastName" class="form-label">Last name</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="" value=""
+                                           disabled>
+                                    <div class="invalid-feedback">
+                                        Se requiere una marca valida.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="descripcion" class="form-label">Descripcion</label>
+                                    <div class="input-group has-validation">
+                                        <textarea type="text" class="form-control" id="descripcion" placeholder="" value="" disabled></textarea>
+                                        <div class="invalid-feedback">
+                                            Se requiere una descripcion valida.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="precio" class="form-label">Precio</label>
+                                    <input type="number" class="form-control" id="precio" placeholder="" value="" disabled>
+                                    <div class="invalid-feedback">
+                                        Se requiere un precio valido.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="existencias" class="form-label">Existencias</label>
+                                    <input type="number" class="form-control" id="lastName" placeholder="" value="" disabled>
+                                    <div class="invalid-feedback">
+                                        Se requiere existencias validas.
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -186,6 +563,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="~/js/color-modes.js"></script>
-    <script src="sidebars.js"></script>
+    <script src="~/js/tooltip.js"></script>
+    <script src="~/js/chekout.js"></script>
+    <script src="~/js/sidebars.js"></script>
 </body>
 </html>

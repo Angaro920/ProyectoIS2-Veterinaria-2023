@@ -13,22 +13,15 @@ namespace Veterinaria_Proyecto.Controllers
         {
             return View();
         }
-        public ActionResult Products() {
-            return View();
-        }
-        public ActionResult CreateProducts()
+        public ActionResult Products()
         {
             return View();
         }
-        public ActionResult ReadProducts()
+        public ActionResult ClinicHistory()
         {
             return View();
         }
-        public ActionResult DeleteProducts()
-        {
-            return View();
-        }
-        public ActionResult UpdateProducts()
+        public ActionResult Clients()
         {
             return View();
         }
