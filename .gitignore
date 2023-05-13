@@ -20,3 +20,5 @@ Veterinaria_Proyecto/obj/Debug/netcoreapp3.1/Veterinaria_Proyecto.pdb
 Veterinaria_Proyecto/obj/Debug/netcoreapp3.1/Veterinaria_Proyecto.Views.pdb
 *.v2
 .vs/Veterinaria_Proyecto/v17/.suo
+
+.fake
