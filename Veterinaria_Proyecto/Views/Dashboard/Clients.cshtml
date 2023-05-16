@@ -1,6 +1,7 @@
 ﻿@{
     Layout = null;
 }
+@model TblClienteView
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
 <head>
@@ -148,23 +149,21 @@
             <div class="row">
                 <div class="col">
                     <div class="mt-4 ms-3">
-                        <a class="btn btn-outline-secondary" asp-area="" asp-controller="Dashboard" asp-action="Index">Regresar</a>
+                        <a class="btn btn-outline-secondary" asp-area="" asp-controller="Dashboard"
+                           asp-action="Index">Regresar</a>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mt-4 ms-3">
-                        <a class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#modalAgregar">Agregar Cliente</a>
+                        <a class="btn btn-outline-secondary" data-bs-toggle="modal"
+                           data-bs-target="#modalAgregar">Agregar Cliente</a>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="form-floating mt-3">
+                    <div class="input-group mt-4">
                         <input type="text" class="form-control" id="floatingInput" placeholder="Buscar">
-                        <label for="floatingInput">Buscar</label>
+                        <button class="btn btn-secondary" type="submit">Buscar</button>
                     </div>
-
-                </div>
-                <div class="col">
-                    <button type="button" class="btn btn-outline-secondary mt-4 ">Buscar</button>
                 </div>
             </div>
             <hr mt-5>
@@ -184,121 +183,8 @@
                                                 <th>&nbsp;</th>
                                             </tr>
                                         </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <img src="https://bootdey.com/img/Content/user_1.jpg" alt="">
-                                                    <h5 class="modal-title">Cliente1</h5>
-                                                    <span class="user-subhead">Celular</span>
-                                                </td>
-                                                <td>
-                                                    <span>Cedula 1</span>
-                                                </td>
-                                                <td class="text-center">Correo 1</td>
-                                                <td>
-                                                    <span class="badge bg-success">Activo</span>
-                                                </td>
-                                                <td style="width: 20%;">
-                                                    <a href="" data-bs-toggle="modal" data-bs-target="#modalMostrar"
-                                                       class="table-link  text-warning">
-
-                                                        <span class="fa-stack" data-bs-toggle="tooltip" title="Mostrar">
-                                                            <i class="fa fa-square fa-stack-2x"></i>
-                                                            <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
-                                                        </span>
-                                                    </a>
-                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalModificar"
-                                                       class="table-link  text-info">
-                                                        <span class="fa-stack" data-bs-toggle="tooltip" title="Editar">
-                                                            <i class="fa fa-square fa-stack-2x"></i>
-                                                            <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
-                                                        </span>
-                                                    </a>
-                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalEliminar"
-                                                       class="table-link danger">
-                                                        <span class="fa-stack" data-bs-toggle="tooltip" title="Eliminar">
-                                                            <i class="fa fa-square fa-stack-2x"></i>
-                                                            <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
-                                                        </span>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <img src="https://bootdey.com/img/Content/user_2.jpg" alt="">
-                                                    <h5 class="modal-title">Cliente 2</h5>
-                                                    <span class="user-subhead">Celular</span>
-                                                </td>
-                                                <td>
-                                                    <span>Cedula 2</span>
-                                                </td>
-                                                <td class="text-center">Correo 2</td>
-                                                <td>
-                                                    <span class="badge bg-danger">Inactivo</span>
-                                                </td>
-                                                <td>
-                                                    <a href="" data-bs-toggle="modal" data-bs-target="#modalMostrar"
-                                                       class="table-link  text-warning">
-
-                                                        <span class="fa-stack" data-bs-toggle="tooltip" title="Mostrar">
-                                                            <i class="fa fa-square fa-stack-2x"></i>
-                                                            <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
-                                                        </span>
-                                                    </a>
-                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalModificar"
-                                                       class="table-link  text-info">
-                                                        <span class="fa-stack" data-bs-toggle="tooltip" title="Editar">
-                                                            <i class="fa fa-square fa-stack-2x"></i>
-                                                            <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
-                                                        </span>
-                                                    </a>
-                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalEliminar"
-                                                       class="table-link danger">
-                                                        <span class="fa-stack" data-bs-toggle="tooltip" title="Eliminar">
-                                                            <i class="fa fa-square fa-stack-2x"></i>
-                                                            <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
-                                                        </span>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <img src="https://bootdey.com/img/Content/user_3.jpg" alt="">
-                                                    <h5 class="modal-title">Cliente 3</h5>
-                                                    <span class="user-subhead">Celular</span>
-                                                </td>
-                                                <td>
-                                                    <span>Cedula 3</span>
-                                                </td>
-                                                <td class="text-center">Correo 3</td>
-                                                <td>
-                                                    <span class="badge bg-success">Activo</span>
-                                                </td>
-                                                <td style="width: 20%;">
-                                                    <a href="" data-bs-toggle="modal" data-bs-target="#modalMostrar"
-                                                       class="table-link  text-warning">
-
-                                                        <span class="fa-stack" data-bs-toggle="tooltip" title="Mostrar">
-                                                            <i class="fa fa-square fa-stack-2x"></i>
-                                                            <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
-                                                        </span>
-                                                    </a>
-                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalModificar"
-                                                       class="table-link  text-info">
-                                                        <span class="fa-stack" data-bs-toggle="tooltip" title="Editar">
-                                                            <i class="fa fa-square fa-stack-2x"></i>
-                                                            <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
-                                                        </span>
-                                                    </a>
-                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalEliminar"
-                                                       class="table-link danger">
-                                                        <span class="fa-stack" data-bs-toggle="tooltip" title="Eliminar">
-                                                            <i class="fa fa-square fa-stack-2x"></i>
-                                                            <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
-                                                        </span>
-                                                    </a>
-                                                </td>
-                                            </tr>
+                                        <tbody id="usersTable">
+                                            
                                         </tbody>
                                     </table>
                                 </div>
@@ -353,7 +239,7 @@
                                         Ingrese un Correo valido
                                     </div>
                                 </div>
-    
+
                             </div>
 
                             <!-- Modal footer -->
@@ -481,7 +367,7 @@
                                     <label for="cedula" class="form-label">Cedula</label>
                                     <input type="number" class="form-control" id="cedula" placeholder="" value=""
                                            disabled>
-                                   
+
                                 </div>
                                 <div class="col-12">
                                     <label for="celular" class="form-label">Celular</label>
@@ -490,7 +376,7 @@
 
                                 <div class="col-12">
                                     <label for="email" class="form-label">Email <span class="text-body-secondary"></span></label>
-                                    <input type="email" class="form-control" id="email" placeholder="mail@ejemplo.com" disabled/>
+                                    <input type="email" class="form-control" id="email" placeholder="mail@ejemplo.com" disabled />
                                 </div>
 
                             </div>
@@ -513,5 +399,6 @@
     <script src="~/js/tooltip.js"></script>
     <script src="~/js/chekout.js"></script>
     <script src="~/js/sidebars.js"></script>
+    <script src="~/js/addClients.js"></script>
 </body>
 </html>
