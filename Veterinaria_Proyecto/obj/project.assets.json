@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\ProyectoIS2-Veterinaria-2023-FrontEnd\\Veterinaria_Proyecto\\Veterinaria_Proyecto.csproj",
+      "projectUniqueName": "C:\\Users\\nelso\\OneDrive\\Escritorio\\ProyectoIS2-Veterinaria-2023-FrontEnd\\Veterinaria_Proyecto\\Veterinaria_Proyecto.csproj",
       "projectName": "Veterinaria_Proyecto",
-      "projectPath": "C:\\projects\\ProyectoIS2-Veterinaria-2023-FrontEnd\\Veterinaria_Proyecto\\Veterinaria_Proyecto.csproj",
+      "projectPath": "C:\\Users\\nelso\\OneDrive\\Escritorio\\ProyectoIS2-Veterinaria-2023-FrontEnd\\Veterinaria_Proyecto\\Veterinaria_Proyecto.csproj",
       "packagesPath": "C:\\Users\\nelso\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\ProyectoIS2-Veterinaria-2023-FrontEnd\\Veterinaria_Proyecto\\obj\\",
+      "outputPath": "C:\\Users\\nelso\\OneDrive\\Escritorio\\ProyectoIS2-Veterinaria-2023-FrontEnd\\Veterinaria_Proyecto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nelso\\AppData\\Roaming\\NuGet\\NuGet.Config",

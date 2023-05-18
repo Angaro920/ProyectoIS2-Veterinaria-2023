@@ -11,10 +11,21 @@ function showProductDetails(productId) {
         const modalBody = document.querySelector("#modal-body");
         console.log(modalBody);
         modalBody.innerHTML = `
-          <h4>${product.nombre}</h4>
+
+      <div class="modal-header">
+        <p class="modal-title">${product.nombre} ${product.marca}</p>
+      </div>
+      <img src="https://via.placeholder.com/300x200.png?text=Product+Image" id="singleViewImg">
+        <div id="singleViewInfo">
           <p>${product.descripcion}</p>
-          <p>${product.marca}</p>
+          <hr/>
           <p>$${product.precio.toFixed(2)}</p>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div> 
+        
+          
         `;
         $('#productModal').modal('show');
       } else {
@@ -44,11 +55,19 @@ function onRequestHandler() {
           <div class="card mb-4 box-shadow">
           <img class="card-img-top" src="https://via.placeholder.com/300x200.png?text=Product+Image" alt="${prod.nombre}">
           <div class="card-body">
-              <h4 class="card-title">${prod.nombre}</h4>
-              <p class="card-text">${prod.descripcion}</p>
-              <p class="card-text">${prod.marca}</p>
-              <p class="card-text">$${prod.precio.toFixed(2)}</p>
-              <button class="btn btn-primary show-details-btn" data-product-id="${prod.idProducto}"data-toggle="modal" data-target="#exampleModalCenter">Show Details</button>
+              <P class="card-tittle">${prod.nombre}</P>
+              <P class="card-subtittle"> ${prod.marca}</P>
+              <hr/>
+              <div class="row px-2">
+                <div class="col-8" id="cardPrice">
+                  <p class="card-text">$${prod.precio.toFixed(2)}</p>
+                </div>
+                <div class="col-4" id="cardViewBttn">
+                  <button class="btn btn-info show-details-btn" data-product-id="${prod.idProducto}"data-toggle="modal" data-target="#exampleModalCenter">
+                  <i class="fa-sharp fa-solid fa-eye"></i>
+                  </button>
+                </div>
+              </div>
           </div>
           </div>
       </div>
@@ -70,3 +89,26 @@ xhr.addEventListener('load', onRequestHandler);
 xhr.open('GET',`${API_URL}/Producto`);
 xhr.send();
 
+// Obtener elementos del rango de precios y elementos para mostrar los valores seleccionados
+const minPriceRange = document.getElementById('minPrice');
+const maxPriceRange = document.getElementById('maxPrice');
+const selectedMinPriceText = document.getElementById('selectedMinPriceText');
+const selectedMaxPriceText = document.getElementById('selectedMaxPriceText');
+
+// Función para formatear un número como pesos colombianos
+function formatCurrency(number) {
+  return new Intl.NumberFormat('es-CO', { style: 'currency', currency: 'COP' }).format(number);
+}
+
+// Mostrar los valores iniciales
+selectedMinPriceText.textContent = formatCurrency(minPriceRange.value);
+selectedMaxPriceText.textContent = formatCurrency(maxPriceRange.value);
+
+// Actualizar los valores seleccionados cuando se cambia el rango de precios
+minPriceRange.addEventListener('input', () => {
+  selectedMinPriceText.textContent = formatCurrency(minPriceRange.value);
+});
+
+maxPriceRange.addEventListener('input', () => {
+  selectedMaxPriceText.textContent = formatCurrency(maxPriceRange.value);
+});
