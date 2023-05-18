@@ -22,6 +22,10 @@ namespace Veterinaria_Proyecto.Controllers
         {
             return View();
         }
+        public ActionResult EnvioCorreos()
+        {
+            return View();
+        }
         public ActionResult Clients()
         {
             return View();

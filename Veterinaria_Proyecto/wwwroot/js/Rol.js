@@ -35,9 +35,31 @@ function autorizacion() {
         }
         if (URLactual == "https://localhost:44326/Dashboard/Products") {
             location.href = 'https://localhost:44326/home/login';
+        } 
+        if (URLactual == "https://localhost:44326/Dashboard/EnvioCorreos") {
+            location.href = 'https://localhost:44326/home/login';
         }
     }
-
+    if (Role != "Asistente" && Role != "Veterinario") {
+        if (URLactual == "https://localhost:44326/dashboard/Index") {
+            location.href = 'https://localhost:44326/home/login';
+        }
+        if (URLactual == "https://localhost:44326/Dashboard/Pets") {
+            location.href = 'https://localhost:44326/home/login';
+        }
+        if (URLactual == "https://localhost:44326/Dashboard/Clients") {
+            location.href = 'https://localhost:44326/home/login';
+        }
+        if (URLactual == "https://localhost:44326/Dashboard/ClinicHistory") {
+            location.href = 'https://localhost:44326/home/login';
+        }
+        if (URLactual == "https://localhost:44326/Dashboard/Products") {
+            location.href = 'https://localhost:44326/home/login';
+        }
+        if (URLactual == "https://localhost:44326/Dashboard/EnvioCorreos") {
+            location.href = 'https://localhost:44326/home/login';
+        }
+    }
     if (Role == "Asistente") {
         if (URLactual == "https://localhost:44326/Dashboard/ClinicHistory") {
             location.href = 'https://localhost:44326/dashboard/Index';
