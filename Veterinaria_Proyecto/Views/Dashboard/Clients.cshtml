@@ -13,7 +13,6 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="~/css/table.css" rel="stylesheet" />
     <link href="~/css/dashboard.css" rel="stylesheet" />
-    <link href="sidebars.css" rel="stylesheet">
     <meta name="theme-color" content="#712cf9">
 </head>
 <body>
@@ -172,7 +171,7 @@
                     <div class="col-lg-12">
                         <div class="main-box no-header clearfix">
                             <div class="main-box-body clearfix">
-                                <div class="table-responsive">
+                                <div class="table-responsive" style="height:75vh;">
                                     <table class="table user-list">
                                         <thead>
                                             <tr>
@@ -209,7 +208,7 @@
                             <div class="row g-3">
                                 <div class="col-sm-6">
                                     <label for="nombre" class="form-label">Nombre</label>
-                                    <input type="text" class="form-control" id="nombreMarca" placeholder="" value=""
+                                    <input type="text" class="form-control" id="nombreCliente" placeholder="" value=""
                                            required>
                                     <div class="invalid-feedback">
                                         Se requiere un nombre valido.
@@ -218,7 +217,7 @@
 
                                 <div class="col-sm-6">
                                     <label for="cedula" class="form-label">Cedula</label>
-                                    <input type="number" class="form-control" id="cedula" placeholder="" value=""
+                                    <input type="number" class="form-control" id="cedulaCliente" placeholder="" value=""
                                            required>
                                     <div class="invalid-feedback">
                                         Se requiere una cedula valida valida.
@@ -226,7 +225,7 @@
                                 </div>
                                 <div class="col-12">
                                     <label for="celular" class="form-label">Celular</label>
-                                    <input type="number" class="form-control" id="celular" placeholder="" value="" required>
+                                    <input type="number" class="form-control" id="celularCliente" placeholder="" value="" required>
                                     <div class="invalid-feedback">
                                         Se requiere un numero valido.
                                     </div>
@@ -234,7 +233,7 @@
 
                                 <div class="col-12">
                                     <label for="email" class="form-label">Email <span class="text-body-secondary"></span></label>
-                                    <input type="email" class="form-control" id="email" placeholder="mail@ejemplo.com">
+                                    <input type="email" class="form-control" id="emailCliente" placeholder="mail@ejemplo.com">
                                     <div class="invalid-feedback">
                                         Ingrese un Correo valido
                                     </div>
@@ -245,7 +244,7 @@
                             <!-- Modal footer -->
 
                             <div class="modal-footer mt-2">
-                                <button class="btn btn-success" type="submit">Agregar</button>
+                                <button class="btn btn-success" id="agregarButton">Agregar</button>
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                             </div>
                         </form>
@@ -399,6 +398,6 @@
     <script src="~/js/tooltip.js"></script>
     <script src="~/js/chekout.js"></script>
     <script src="~/js/sidebars.js"></script>
-    <script src="~/js/addClients.js"></script>
+    <script src="~/js/Clients.js"></script>
 </body>
 </html>
