@@ -47,3 +47,8 @@ Veterinaria_Proyecto/obj/Debug/netcoreapp3.1/Veterinaria_Proyecto.Views.pdb
 /.vs/Veterinaria_Proyecto/DesignTimeBuild/.dtbcache.v2
 /.gitignore
 /.gitignore
+/Veterinaria_Proyecto/bin/Debug/netcoreapp3.1/Veterinaria_Proyecto.deps.json
+/Veterinaria_Proyecto/bin/Debug/netcoreapp3.1/Veterinaria_Proyecto.runtimeconfig.json
+/Veterinaria_Proyecto/obj/Debug/netcoreapp3.1/Veterinaria_Proyecto.csproj.AssemblyReference.cache
+/Veterinaria_Proyecto/obj/Debug/netcoreapp3.1/Veterinaria_Proyecto.csproj.CoreCompileInputs.cache
+/Veterinaria_Proyecto/obj/Veterinaria_Proyecto.csproj.nuget.g.targets
