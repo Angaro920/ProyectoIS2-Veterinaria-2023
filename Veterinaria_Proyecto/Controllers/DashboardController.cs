@@ -7,6 +7,7 @@ namespace Veterinaria_Proyecto.Controllers
     {
         public ActionResult Index()
         {
+            
             return View();
         }
         public ActionResult Pets()
