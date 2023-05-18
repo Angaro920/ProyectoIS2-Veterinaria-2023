@@ -20,6 +20,7 @@ namespace Veterinaria_Proyecto.Controllers
 
         public IActionResult Index()
         {
+
             return View();
         }
 

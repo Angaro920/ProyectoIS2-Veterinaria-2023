@@ -7,7 +7,7 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
 <head>
-    
+
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,15 +15,15 @@
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link href="~/css/dashboard.css" rel="stylesheet"/>
- 
+    <link href="~/css/dashboard.css" rel="stylesheet" />
+
     <meta name="theme-color" content="#712cf9">
 
 
-   
 
 
-   
+
+
 </head>
 <body>
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -108,7 +108,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="nav-link text-white"  asp-area="" asp-controller="Dashboard" asp-action="Pets">
+                    <a class="nav-link text-white" asp-area="" asp-controller="Dashboard" asp-action="Pets">
                         <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#pet" /></svg>
                         Mascotas
                     </a>
@@ -119,20 +119,19 @@
                         Clientes
                     </a>
                 </li>
-                
+
                 <li>
                     <a class="nav-link text-white" asp-area="" asp-controller="Dashboard" asp-action="ClinicHistory">
                         <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#healing" /></svg>
-                        Historia Clinica 
+                        Historia Clinica
                     </a>
                 </li>
                 <li>
                     <a class="nav-link text-white" asp-area="" asp-controller="Dashboard" asp-action="EnvioCorreos">
                         <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#healing" /></svg>
-                        Envio Historia 
+                        Envio Historia
                     </a>
                 </li>
-
                 <li>
                     <a class="nav-link text-white" asp-area="" asp-controller="Dashboard" asp-action="Products">
                         <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#store" /></svg>
@@ -156,14 +155,36 @@
         </div>
 
         <div class="b-example-divider b-example-vr"></div>
-        <main>
-            <div class="position-absolute top-50 start-50 translate-middle text-center ms-5">
-        <h1 class="display-5 fw-bold text-body-emphasis">Bienvenido a la plataforma</h1>
-        <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Navegue por su menu de opciones</p>
-        </div>
-    </div>
-</main>
+        <main class="form-signin w-100 m-auto">
+            <form>
+                <svg class="mb-4" width="72" height="57" alt=""><use xlink:href="#people" /></svg>
+
+                <h1 class="h3 mb-3 fw-normal">Ingrese los datos</h1>
+
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="Destinatario" placeholder="nombre@ejemplo.com">
+                    <label for="Destinatario">Destinatario</label>
+                </div>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="Asunto" placeholder="Asunto">
+                    <label for="Asunto">Asunto</label>
+                </div>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="Usuario" placeholder="Usuario">
+                    <label for="Usuario">Usuario</label>
+                </div>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="idHistoriaClinica" placeholder="id de HistoriaClinica">
+                    <label for="idHistoriaClinica">id de HistoriaClinica</label>
+                </div>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="idMascota" placeholder="id de Mascota">
+                    <label for="idMascota">id de Mascota</label>
+                </div>
+ 
+                <a class="w-100 btn btn-lg btn-primary" onclick="Email()">Enviar</a>
+            </form>
+        </main>
     </main>
 
 
@@ -173,3 +194,4 @@
 </body>
 </html>
 <script src="~/js/Rol.js"></script>
+<script src="~/js/Email.js"></script>
