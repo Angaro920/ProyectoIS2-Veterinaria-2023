@@ -7,6 +7,7 @@ namespace Veterinaria_Proyecto.Controllers
     {
         public ActionResult Index()
         {
+            
             return View();
         }
         public ActionResult Pets()
@@ -18,6 +19,10 @@ namespace Veterinaria_Proyecto.Controllers
             return View();
         }
         public ActionResult ClinicHistory()
+        {
+            return View();
+        }
+        public ActionResult EnvioCorreos()
         {
             return View();
         }
