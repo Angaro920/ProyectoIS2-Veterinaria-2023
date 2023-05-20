@@ -1,4 +1,4 @@
-﻿
+
 const input = document.querySelector("#floatingInput");
 const button = document.querySelector("#burt");
 var usuario = "";
