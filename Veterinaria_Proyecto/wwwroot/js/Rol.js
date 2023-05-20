@@ -1,4 +1,4 @@
-﻿/*const input = document.querySelector("#floatingInput");
+﻿/* const input = document.querySelector("#floatingInput");
 const button = document.querySelector("#burt");
 
 
@@ -19,4 +19,4 @@ function GenerarRol() {
         });
            
 }
-*/
+ */
