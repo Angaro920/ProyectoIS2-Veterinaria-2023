@@ -244,7 +244,7 @@
                             <div class="row g-3">
                                 <div class="col-sm-6">
                                     <label for="nombre" class="form-label">Nombre</label>
-                                    <input type="text" class="form-control" id="nombreMarca" placeholder="" value=""
+                                    <input type="text" class="form-control" id="nombreProducto" placeholder="" value=""
                                            required>
                                     <div class="invalid-feedback">
                                         Se requiere un nombre valido.
@@ -253,7 +253,7 @@
 
                                 <div class="col-sm-6">
                                     <label for="marca" class="form-label">Marca</label>
-                                    <input type="text" class="form-control" id="lastName" placeholder="" value=""
+                                    <input type="text" class="form-control" id="nombreMarca" placeholder="" value=""
                                            required>
                                     <div class="invalid-feedback">
                                         Se requiere una marca valida.
@@ -279,7 +279,7 @@
 
                                 <div class="col-sm-6">
                                     <label for="existencias" class="form-label">Existencias</label>
-                                    <input type="number" class="form-control" id="lastName" placeholder="" value="" required>
+                                    <input type="number" class="form-control" id="existencias" placeholder="" value="" required>
                                     <div class="invalid-feedback">
                                         Se requiere existencias validas.
                                     </div>
@@ -287,7 +287,7 @@
                                 <div class="col-12">
                                     <div class="mb-3">
                                         <label for="formFileSm" class="form-label">Imagen</label>
-                                        <input class="form-control" type="file" id="formFile" required>
+                                        <input class="form-control" type="file" id="formFile">
                                         <div class="invalid-feedback">
                                             Se requiere una imagen
                                         </div>
@@ -299,7 +299,7 @@
                             <!-- Modal footer -->
 
                             <div class="modal-footer mt-2">
-                                <button class="btn btn-success" type="submit">Agregar</button>
+                                <p class="btn btn-success" type="submit" id="agregarButton">Agregar</p>
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                             </div>
                         </form>
@@ -325,7 +325,7 @@
 
                     <!-- Modal footer -->
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Eliminar</button>
+                        <p type="button" class="btn btn-danger" data-bs-dismiss="modal" id="eliminarButton">Eliminar</p>
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                     </div>
 
@@ -349,7 +349,7 @@
                             <div class="row g-3">
                                 <div class="col-sm-6">
                                     <label for="nombre" class="form-label">Nombre</label>
-                                    <input type="text" class="form-control" id="nombreMarca" placeholder="" value=""
+                                    <input type="text" class="form-control" id="nombreProductoActualizado" placeholder="" value=""
                                            required>
                                     <div class="invalid-feedback">
                                         Se requiere un nombre valido.
@@ -358,7 +358,7 @@
 
                                 <div class="col-sm-6">
                                     <label for="marca" class="form-label">Marca</label>
-                                    <input type="text" class="form-control" id="marca" placeholder="" value=""
+                                    <input type="text" class="form-control" id="nombreMarcaActualizado" placeholder="" value=""
                                            required>
                                     <div class="invalid-feedback">
                                         Se requiere una marca valida.
@@ -368,7 +368,7 @@
                                 <div class="col-12">
                                     <label for="descripcion" class="form-label">Descripcion</label>
                                     <div class="input-group has-validation">
-                                        <textarea type="text" class="form-control" id="descripcion" placeholder="" value="" required></textarea>
+                                        <textarea type="text" class="form-control" id="descripcionActualizado" placeholder="" value="" required></textarea>
                                         <div class="invalid-feedback">
                                             Se requiere una descripcion valida.
                                         </div>
@@ -376,7 +376,7 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="precio" class="form-label">Precio</label>
-                                    <input type="number" class="form-control" id="precio" placeholder="" value="" required>
+                                    <input type="number" class="form-control" id="precioActualizado" placeholder="" value="" required>
                                     <div class="invalid-feedback">
                                         Se requiere un precio valido.
                                     </div>
@@ -384,7 +384,7 @@
 
                                 <div class="col-sm-6">
                                     <label for="existencias" class="form-label">Existencias</label>
-                                    <input type="number" class="form-control" id="lastName" placeholder="" value="" required>
+                                    <input type="number" class="form-control" id="existenciasActualizado" placeholder="" value="" required>
                                     <div class="invalid-feedback">
                                         Se requiere existencias validas.
                                     </div>
@@ -392,7 +392,7 @@
                                 <div class="col-12">
                                     <div class="mb-3">
                                         <label for="formFileSm" class="form-label">Imagen</label>
-                                        <input class="form-control" type="file" id="formFile" required>
+                                        <input class="form-control" type="file" id="formFile">
                                         <div class="invalid-feedback">
                                             Se requiere una imagen
                                         </div>
@@ -404,7 +404,7 @@
                             <!-- Modal footer -->
 
                             <div class="modal-footer mt-2">
-                                <button class="btn btn-warning" type="submit">Modificar</button>
+                                <p class="btn btn-warning" type="submit" id="actualizarButton">Modificar</p>
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                             </div>
                         </form>
